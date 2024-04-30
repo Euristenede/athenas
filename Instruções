@@ -1,0 +1,14 @@
+- Banco de dados
+  1 - é necessário ter o docker instalado;
+  2 - executar no terminal o seguinte comando 'docker-compose up' um container será criado já com o banco de dados
+- Api
+  1 - é necessário ter o java 11
+  2 - utilizando uma ide (Eclipse ou Netbeans) limpar e construir e depurar a aplicação
+  3 - outra opção é utilizar o terminal para limpar, construir e depurar
+- Frontend
+  1 - é necessário ter o node instalado
+  2 - é necessario ter o Angular(17) instalado
+  3 - executar o comando npm install && ng serve
+  4 - a aplicação irá subir na porta 4200
+  
+Eu gostaria de conteinerizar toda a aplicação para facilitar o deploy, mas devido ao tempo curto não foi posível
